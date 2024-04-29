@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FFFFCF56">
-        <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Petopia" VerticalAlignment="Top" Height="75" Width="276" TextAlignment="Center" FontSize="46" FontWeight="Bold" FontFamily="Showcard Gothic"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,62,0,0" TextWrapping="Wrap" Text="Petopia" VerticalAlignment="Top" Height="75" Width="276" TextAlignment="Center" FontSize="46" FontWeight="Bold" FontFamily="Segoe UI Black"/>
         <TextBox HorizontalAlignment="Center" Margin="0,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" Height="43" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Center" Height="45" Margin="0,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372"/>
         <Label Content="Account:" HorizontalAlignment="Center" Height="27" Margin="0,142,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.469,3.291"/>
@@ -15,7 +15,6 @@
         <Button Content="Log In" HorizontalAlignment="Center" Height="45" Margin="0,379,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click" FontSize="17" FontWeight="Bold"/>
         <CheckBox Content="" HorizontalAlignment="Left" Height="33" Margin="219,339,0,0" VerticalAlignment="Top" Width="44"/>
         <Label Content="remember me" HorizontalAlignment="Left" Height="33" Margin="241,331,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="sample"/><LineBreak/><Run/></TextBlock>
 
 
     </Grid>
