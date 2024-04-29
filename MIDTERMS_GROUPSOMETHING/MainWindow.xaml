@@ -15,6 +15,7 @@
         <Button Content="Log In" HorizontalAlignment="Center" Height="45" Margin="0,379,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click" FontSize="17" FontWeight="Bold"/>
         <CheckBox Content="" HorizontalAlignment="Left" Height="33" Margin="219,339,0,0" VerticalAlignment="Top" Width="44"/>
         <Label Content="remember me" HorizontalAlignment="Left" Height="33" Margin="241,331,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="sample"/><LineBreak/><Run/></TextBlock>
 
 
     </Grid>
