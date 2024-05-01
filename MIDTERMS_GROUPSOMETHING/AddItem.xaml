@@ -20,7 +20,7 @@
         <Button Content="Add Item" HorizontalAlignment="Left" Margin="498,267,0,0" VerticalAlignment="Top" Click="Button_Click" Visibility="Hidden"/>
         <ComboBox x:Name="ComboType1" HorizontalAlignment="Left" Margin="225,225,0,0" VerticalAlignment="Top" Width="129" Visibility="Hidden"/>
         <ComboBox x:Name="ComboType2" HorizontalAlignment="Left" Margin="460,223,0,0" VerticalAlignment="Top" Width="129" Visibility="Hidden"/>
-        <TextBlock HorizontalAlignment="Left" Margin="58,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" FontWeight="Bold" FontSize="24"><Run Text="ADD ITEM"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="58,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" FontWeight="Bold" FontSize="24" Height="40"><Run Text="ADD ITEM"/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Window>
