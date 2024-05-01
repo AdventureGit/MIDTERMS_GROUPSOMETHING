@@ -32,7 +32,10 @@ namespace MIDTERMS_GROUPSOMETHING
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            
+            SelectionPage selectionpage = new SelectionPage();
+            selectionpage.Show();
+            this.Close();
         }
     }
 }

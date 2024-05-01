@@ -25,24 +25,24 @@ namespace MIDTERMS_GROUPSOMETHING
         }
 
         private void AddItemButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
+        {     
             AddItem addItem = new AddItem();
             addItem.Show();
+            this.Close();
         }
 
         private void SearchEditButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
             SearchEdit searchEdit = new SearchEdit();
             searchEdit.Show();
+            this.Close();
         }
 
         private void LogsButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
             Logs logs = new Logs();
             logs.Show();
+            this.Close();
         }
     }
 }
