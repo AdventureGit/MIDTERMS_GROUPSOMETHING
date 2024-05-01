@@ -41,6 +41,7 @@ namespace MIDTERMS_GROUPSOMETHING
             Tb1.Visibility = Visibility.Visible;
             Tbx0.Visibility = Visibility.Visible;
             Tbx1.Visibility = Visibility.Visible;
+            Tbx2.Visibility = Visibility.Visible;
             ComboType1.Visibility = Visibility.Visible;
             ComboType2.Visibility = Visibility.Visible;
         }
