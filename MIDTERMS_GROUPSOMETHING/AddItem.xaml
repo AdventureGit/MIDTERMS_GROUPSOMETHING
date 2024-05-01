@@ -17,10 +17,12 @@
         <TextBlock x:Name="Tb3" HorizontalAlignment="Left" Margin="378,167,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Height="25" Width="55" Visibility="Hidden"/>
         <TextBox x:Name="Tbx2" HorizontalAlignment="Left" Margin="460,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129" Height="28" Visibility="Hidden"/>
         <TextBlock x:Name="Tb4" HorizontalAlignment="Left" Margin="378,225,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Height="25" Width="55" Visibility="Hidden"/>
-        <Button Content="Add Item" HorizontalAlignment="Left" Margin="498,267,0,0" VerticalAlignment="Top" Click="Button_Click" Visibility="Hidden"/>
         <ComboBox x:Name="ComboType1" HorizontalAlignment="Left" Margin="225,225,0,0" VerticalAlignment="Top" Width="129" Visibility="Hidden"/>
         <ComboBox x:Name="ComboType2" HorizontalAlignment="Left" Margin="460,223,0,0" VerticalAlignment="Top" Width="129" Visibility="Hidden"/>
         <TextBlock HorizontalAlignment="Left" Margin="58,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" FontWeight="Bold" FontSize="24" Height="40"><Run Text="ADD ITEM"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Tb5" HorizontalAlignment="Left" Margin="378,279,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Height="25" Width="85" Visibility="Hidden"/>
+        <ComboBox x:Name="ComboType3" HorizontalAlignment="Left" Margin="460,277,0,0" VerticalAlignment="Top" Width="129" Visibility="Hidden"/>
+        <Button x:Name="AddItemBtn" Content="Add Item" HorizontalAlignment="Left" Margin="335,338,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.171,0.056" Width="98" Height="25" Visibility="Hidden"/>
 
     </Grid>
 </Window>
